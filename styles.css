@@ -94,6 +94,18 @@ a {
   font-weight: 600;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-link {
+  color: rgba(245, 239, 229, 0.84);
+  font-size: 14px;
+  font-weight: 800;
+}
+
 .header-action,
 .button,
 .contact-form button {
@@ -276,17 +288,17 @@ h2 {
 }
 
 .lot-media-1 {
-  background-image: linear-gradient(135deg, rgba(29, 25, 20, 0.08), rgba(185, 138, 74, 0.22)), url("assets/hero-gado.png");
+  background-image: linear-gradient(135deg, rgba(29, 25, 20, 0.06), rgba(185, 138, 74, 0.16)), url("assets/lote-garrotes.png");
 }
 
 .lot-media-2 {
-  background-image: linear-gradient(135deg, rgba(111, 69, 43, 0.28), rgba(24, 36, 27, 0.14)), url("assets/hero-gado.png");
-  background-position: 68% center;
+  background-image: linear-gradient(135deg, rgba(111, 69, 43, 0.2), rgba(24, 36, 27, 0.1)), url("assets/lote-matrizes.png");
+  background-position: center;
 }
 
 .lot-media-3 {
-  background-image: linear-gradient(135deg, rgba(185, 138, 74, 0.24), rgba(29, 25, 20, 0.05)), url("assets/hero-gado.png");
-  background-position: 86% center;
+  background-image: linear-gradient(135deg, rgba(185, 138, 74, 0.18), rgba(29, 25, 20, 0.04)), url("assets/lote-bezerros.png");
+  background-position: center;
 }
 
 .lot-body {
@@ -444,6 +456,15 @@ h2 {
   font-weight: 800;
 }
 
+.contact-instagram {
+  display: block;
+  width: fit-content;
+  margin-top: 10px;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 800;
+}
+
 .contact-form {
   display: grid;
   gap: 14px;
@@ -508,6 +529,10 @@ h2 {
     min-height: 40px;
     padding: 0 13px;
     font-size: 13px;
+  }
+
+  .social-link {
+    display: none;
   }
 
   .hero {
